@@ -37,3 +37,25 @@
     margin-top: 22px;
     margin-bottom: 0;   
 }
+.footer{
+    width:100%;
+    background-color:black; 
+    margin-top: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_text{
+    width: 94%;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color:aliceblue;
+    text-transform: uppercase;
+    height: 124px;
+    font-family: "Inter",sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 40px;
+}
