@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    row-gap: 10px;
+}
+
+.red{
+    background-color: red;
+    animation: rainbow 1s infinite  ease-in;
+}
+@keyframes rainbow{
+    0% {background-color: aliceblue;}
+    8.5%{background-color: red;}
+    25.5%{background-color: blue;}
+    42.5{background-color: black}
+    59.5% {background-color: aquamarine;}
+    76.5% {background-color: purple;}
+}
+.purple{
+    background-color: purple;
+    animation: rainbow 0.001ms infinite linear ease-in;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.cyan{
+    background-color: cyan;
+    animation: rainbow 0.001ms infinite linear ease-in;
+}
+.square{
+    height: 100px;
+    width: 100px;
+}
